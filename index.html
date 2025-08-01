@@ -6,39 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Distribuidora Giares: azúcar y harina al por mayor. Calidad, buenos precios y envíos a todo el país.">
+  <meta name="robots" content="index, follow">
   <title>Distribuidora Giares - Harinas y Azúcares Mayorista</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="estilos.css">
   <link rel="icon" href="data/del_plata_logo.png" type="image/png">
-  <!--SITEMAP??? -->
 
-  <!-- TODO no se que chota hacer con esto. ampliaremos
-  <script type="application/ld+json"> 
+  <!-- TODO no se que chota hacer con esto. ampliaremos-->
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite", //Organization? 
-  "name": "Giares - Mayorista de Azúcares y Harinas", //"Distribuidora Giares"
-  "url": "https://tusitio.com",  //chan
-  "potentialAction": {
-    "@type": "SearchAction", //ahre
-    "target": "https://tusitio.com/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
+  "@type": "Organization",
+  "name": "Distribuidora Giares",
+  "url": "https://cocodelfi.github.io/giares/",
+  "logo": "https://cocodelfi.github.io/giares/data/del_plata_logo.png",
+  "description": "Distribuidora mayorista de azúcar y harina. Calidad, buenos precios y envíos a todo el país.",
+  "address": {
+    "@type": "PostalAdress",
+    "streetAddress": "Av. La Plata 4150",
+    "addressLocality": "Ezpeleta",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
   },
-  "sameAs": [
-    "https://api.whatsapp.com/send?phone=5491158103070&text=Hola!%20Distri%20del%20Plata%20%F0%9F%8C%BE",
-    "https://www.instagram.com/distridelplata/",
-    "https://facebook.com"
-  ],
-  "contactPoint": {
+  "ContactPoint":[{
     "@type": "ContactPoint",
-    "telephone": "+54-1234-5678",
-    "contactType": "customer service"
-  },
-  "editor.links": "true"
+    "telephone": "+54-11-5228-8457",
+    "contactType": "customer service",
+    "areaServed": "AR"
+  }],
+  "sameAs": [
+  "https://wa.link/t5u1co",
+  "https://www.instagram.com/distridelplata/",
+  //"https://facebook.com"
+  ]
 }
 </script>
--->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "type": "WebSite",
+  "name": "Giares - Mayorista de Azúcares y Harinas",
+  "url": "https://cocodelfi.github.io/giares/",
+  "potentialAction":{
+    "@type": "SearchAction",
+    "target": "https://cocodelfi.github.io/giares/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 </head>
 
 <body>
@@ -146,7 +162,7 @@
         <h3 class="mb-4 text-center" style="color: var(--brand-red);">Común Tipo "A"</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/concepcion.jpg" alt="Ing. Concepción tipo A">
               </div>
@@ -156,10 +172,10 @@
                 <h5 class="card-title">Ingenio Concepción</h5>
                 <p class="card-text">Azúcar refinada de alta purezaAAA. Presentación: 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/leach.jpg" alt="Leach tipo A">
               </div>
@@ -169,10 +185,10 @@
                 <h5 class="card-title">Leach</h5>
                 <p class="card-text">Azúcar efinada, ideal para repostería rústicaAAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/leales.jpg" alt="Ing. Leales tipo A">
               </div>
@@ -182,10 +198,10 @@
                 <h5 class="card-title">Ingenio Leales</h5>
                 <p class="card-text">Azúcar efinada, ideal para repostería rústicaAAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/nutrituc.jpg" alt="Nutri Tuc tipo A">
               </div>
@@ -195,10 +211,10 @@
                 <h5 class="card-title">Nutri Tuc</h5>
                 <p class="card-text">Azúcar extra fina AAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/sanisidro.jpg" alt="San Isidro tipo A">
               </div>
@@ -208,10 +224,10 @@
                 <h5 class="card-title">San Isidro</h5>
                 <p class="card-text">Azúcar extra fina AAA. Presentación: 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/a/santarosaveinticinco.jpg" alt="Santa Rosa tipo A">
               </div>
@@ -222,7 +238,7 @@
                 <h5 class="card-title">Santa Rosa</h5>
                 <p class="card-text">Azúcar extra fina AAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
@@ -232,7 +248,7 @@
         <h3 class="mb-4 text-center" style="color: var(--brand-red);">Orgánica</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/org/sanisidro.jpg" alt="San Isidro orgánica">
               </div>
@@ -242,7 +258,7 @@
                 <h5 class="card-title">San Isidro</h5>
                 <p class="card-text">Azúcar orgánica AAAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
@@ -252,7 +268,7 @@
         <h3 class="mb-4 text-center" style="color: var(--brand-red);">Por kilo</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/kg/nutrituc.jpg" alt="Nutri Tuc tipo A">
               </div>
@@ -262,10 +278,10 @@
                 <h5 class="card-title">Nutri Tuc</h5>
                 <p class="card-text">Azúcar extra fina AAA. Presentación: 1kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/azucar/kg/esperanza.jpg" alt="La Esperanza orgánica">
               </div>
@@ -275,7 +291,7 @@
                 <h5 class="card-title">La Esperanza</h5>
                 <p class="card-text">Azúcar extra fina AAAA. Presentación: 1kg.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
@@ -289,7 +305,7 @@
         <h3 class="mb-4 text-center" style="color: var(--brand-red);">Tipo 000</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/caserita.jpg" alt="Caserita 000">
               </div>
@@ -299,10 +315,10 @@
                 <h5 class="card-title">Caserita</h5>
                 <p class="card-text">Harina especial para panadería profesional AAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/donarmando.jpg" alt="Don Armando 000">
               </div>
@@ -313,10 +329,10 @@
                 <h5 class="card-title">Don Armando</h5>
                 <p class="card-text">Harina refinada para repostería AAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/morixe.jpg" alt="Morixe 000">
               </div>
@@ -327,10 +343,10 @@
                 <h5 class="card-title">Morixe</h5>
                 <p class="card-text">Ideal para panadería y masasAAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/olavarria.jpg" alt="Olavarria 000">
               </div>
@@ -341,10 +357,10 @@
                 <h5 class="card-title">Olavarria</h5>
                 <p class="card-text">Ideal para panadería y masas AAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/pehuajo.jpg" alt="Pehuajo 000">
               </div>
@@ -355,10 +371,10 @@
                 <h5 class="card-title">Pehuajo</h5>
                 <p class="card-text">Ideal para panadería y masasAAAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/000/esplendida.jpg" alt="Esplendida 000">
               </div>
@@ -368,7 +384,7 @@
                 <h5 class="card-title">Esplendida</h5>
                 <p class="card-text">Ideal para panadería y masas. aAAAA Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
 
@@ -376,7 +392,7 @@
         <h3 class="mb-4 mt-5 text-center" style="color: var(--brand-red);">Tipo 0000</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/0000/morixe.jpg" alt="Morixe 0000">
               </div>
@@ -387,10 +403,10 @@
                 <h5 class="card-title">Morixe</h5>
                 <p class="card-text">Ideal para panadería y masasAAAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/0000/olavarria.jpg" alt="Olavarria 0000">
               </div>
@@ -400,10 +416,10 @@
                 <h5 class="card-title">Olavarria</h5>
                 <p class="card-text">Harina extrafina para repostería finaAAA. Presentación: 25kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/0000/pehuajo.jpg" alt="Pehuajo 0000">
               </div>
@@ -414,10 +430,10 @@
                 <h5 class="card-title">Pehuajo</h5>
                 <p class="card-text">Harina refinada para reposteríaAAAA. Presentación: 25kg y 50kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/0000/esplendida.jpg" alt="Esplendida 0000">
               </div>
@@ -427,7 +443,7 @@
                 <h5 class="card-title">Esplendida</h5>
                 <p class="card-text">Harina refinada para reposteríaAAA. Presentación: 25kg y 50kg?.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
 
@@ -435,7 +451,7 @@
         <h3 class="mb-4 mt-5 text-center" style="color: var(--brand-red);">Por kilo</h3>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/kg/caserita-leudante.jpg" alt="Caserita leudante">
               </div>
@@ -445,10 +461,10 @@
                 <h5 class="card-title">Caserita Leudante</h5>
                 <p class="card-text">Ideal para panadería y masasAAA. Presentación: 1kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/kg/caserita-000.jpg" alt="Caserita 000">
               </div>
@@ -458,10 +474,10 @@
                 <h5 class="card-title">Caserita 000</h5>
                 <p class="card-text">Harina extrafina para repostería finaAAA. Presentación: 1kg.</p>
               </div>
-            </div>
+            </article>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="product-card fade-in">
+            <article class="product-card fade-in">
               <div class="product-img-container">
                 <img src="data/harina/kg/caserita-0000.jpg" alt="Caserita 0000">
               </div>
@@ -471,7 +487,7 @@
                 <h5 class="card-title">Caserita 0000</h5>
                 <p class="card-text">Harina refinada para reposteríaAAA. Presentación: 1kg.</p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
@@ -547,7 +563,7 @@
         <a href="https://www.instagram.com/distridelplata/" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
-        <!-- TODO falta fb deshabilitar-->
+        <!-- TODO falta fb. deshabilitar-->
         <a href="https://facebook.com" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
