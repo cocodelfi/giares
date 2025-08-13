@@ -173,10 +173,6 @@ body {
   transition: transform 0.5s ease;
 }
 
-.product-card:hover .product-img-container img {
-  transform: scale(1.05);
-}
-
 .product-card .card-title {
   color: var(--brand-red);
   font-weight: 700;
@@ -483,6 +479,32 @@ footer {
 .social-links-contact .fa-instagram { color: #E1306C; }
 .social-links-contact .fa-facebook-f { color: #1877F2; }
 .social-links-contact .fa-whatsapp { color: #25D366; }
+
+
+/* aumentar tamaño wpp btn en pantallas medianas y grandes */
+@media (min-width: 768px) {
+  .whatsapp-btn {
+    width: 75px;
+    height: 75px;
+    font-size: 2.2rem;
+    bottom: 35px;
+    right: 35px;
+  }
+  .contact-grid .contact-item:last-child {
+    grid-column: 1 / -1; /* Ocupa todo el ancho disponible */
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .whatsapp-btn {
+    width: 85px;
+    height: 85px;
+    font-size: 2.5rem;
+    bottom: 40px;
+    right: 40px;
+  }
+}
 
 /* Mejoras de espaciado en móviles */
 @media (max-width: 768px) {
