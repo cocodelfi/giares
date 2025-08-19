@@ -5,54 +5,164 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Distribuidora Giares: azúcar y harina al por mayor. Calidad, buenos precios y envíos a todo el país.">
+    content="Distribuidora Giares: azúcar y harina al por mayor. Calidad, buenos precios y envíos a todo el país. Ingenio Concepción, Leach, Morixe, Caserita y más marcas reconocidas.">
+  <meta name="keywords" content="distribuidora, azucar mayorista, harina mayorista, ingenio concepcion, leach, morixe, caserita, azucar tipo a, harina 000, harina 0000, ezpeleta, buenos aires">
   <meta name="robots" content="index, follow">
+  <meta name="author" content="Distribuidora Giares">
+  <meta name="geo.region" content="AR-B">
+  <meta name="geo.placename" content="Ezpeleta, Buenos Aires">
+  <meta name="geo.position" content="-34.7464;-58.2598">
+  <meta name="ICBM" content="-34.7464, -58.2598">
+  <meta property="og:title" content="Distribuidora Giares - Harinas y Azúcares Mayorista">
+  <meta property="og:description" content="Distribuidora mayorista de azúcar y harina con más de 20 años de experiencia. Marcas reconocidas, calidad garantizada y envíos a todo el país.">
+  <meta property="og:image" content="https://cocodelfi.github.io/giares/data/banner.jpg">
+  <meta property="og:url" content="https://cocodelfi.github.io/giares/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Distribuidora Giares - Harinas y Azúcares Mayorista">
+  <meta name="twitter:description" content="Distribuidora mayorista de azúcar y harina con más de 20 años de experiencia.">
+  <meta name="twitter:image" content="https://cocodelfi.github.io/giares/data/banner.jpg">
   <title>Distribuidora Giares - Harinas y Azúcares Mayorista</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="estilos.css">
   <link rel="icon" href="data/del_plata_logo.png" type="image/png">
 
-  <!-- TODO. ampliaremos-->
+  <!-- Structured Data para SEO y Sitelinks -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Distribuidora Giares",
+  "alternateName": "Giares Mayorista",
   "url": "https://cocodelfi.github.io/giares/",
   "logo": "https://cocodelfi.github.io/giares/data/del_plata_logo.png",
-  "description": "Distribuidora mayorista de azúcar y harina. Calidad, buenos precios y envíos a todo el país.",
+  "image": "https://cocodelfi.github.io/giares/data/banner.jpg",
+  "description": "Distribuidora mayorista de azúcar y harina con más de 20 años de experiencia. Especialistas en marcas reconocidas como Ingenio Concepción, Leach, Morixe y Caserita.",
+  "foundingDate": "2000",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Av. La Plata 4150",
     "addressLocality": "Ezpeleta",
     "addressRegion": "Buenos Aires",
+    "postalCode": "1879",
     "addressCountry": "AR"
   },
-  "contactPoint":[{
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -34.7464,
+    "longitude": -58.2598
+  },
+  "contactPoint": [{
     "@type": "ContactPoint",
     "telephone": "+54-11-5228-8457",
     "contactType": "customer service",
-    "areaServed": "AR"
+    "areaServed": "AR",
+    "availableLanguage": "Spanish"
+  }, {
+    "@type": "ContactPoint",
+    "telephone": "+54-11-5810-3070",
+    "contactType": "sales",
+    "areaServed": "AR",
+    "availableLanguage": "Spanish"
   }],
   "sameAs": [
-  "https://wa.link/t5u1co",
-  "https://www.instagram.com/distridelplata/",
-  "https://facebook.com"
-  ]
+    "https://wa.link/t5u1co",
+    "https://www.instagram.com/distridelplata/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Productos Mayoristas",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Azúcar Mayorista",
+          "category": "Azúcares",
+          "description": "Azúcar tipo A, orgánica y por kilo de marcas reconocidas"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Harina Mayorista",
+          "category": "Harinas",
+          "description": "Harina tipo 000, 0000 y leudante de las mejores marcas"
+        }
+      }
+    ]
+  }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Giares - Mayorista de Azúcares y Harinas",
+  "name": "Distribuidora Giares - Mayorista de Azúcares y Harinas",
+  "alternateName": "Giares Mayorista",
   "url": "https://cocodelfi.github.io/giares/",
-  "potentialAction":{
+  "description": "Sitio web oficial de Distribuidora Giares, especialistas en venta mayorista de azúcar y harina.",
+  "inLanguage": "es-AR",
+  "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://cocodelfi.github.io/giares/?s={search_term_string}",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cocodelfi.github.io/giares/?s={search_term_string}"
+    },
     "query-input": "required name=search_term_string"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Secciones Principales",
+    "itemListElement": [
+      {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Inicio",
+        "description": "Página principal de Distribuidora Giares",
+        "url": "https://cocodelfi.github.io/giares/#inicio"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "Azúcares",
+        "description": "Catálogo completo de azúcares mayoristas",
+        "url": "https://cocodelfi.github.io/giares/#azucares"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Harinas",
+        "description": "Catálogo completo de harinas mayoristas",
+        "url": "https://cocodelfi.github.io/giares/#harinas"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Contacto",
+        "description": "Información de contacto y ubicación",
+        "url": "https://cocodelfi.github.io/giares/#contacto"
+      }
+    ]
   }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://cocodelfi.github.io/giares/"
+    }
+  ]
 }
 </script>
 </head>

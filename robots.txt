@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://cocodelfi.github.io/giares/sitemap.xml
+
+# Main sections for sitelinks
+Allow: /#inicio
+Allow: /#azucares
+Allow: /#harinas
+Allow: /#contacto
+
+# Image directories
+Allow: /data/
+
+# Additional SEO directives
+Crawl-delay: 1
